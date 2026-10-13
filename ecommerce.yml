@@ -1,7 +1,7 @@
 token:
   expiration_time: 8640000 # 1 day
-  secret: this is a default secret from config service - modified
+  secret: this is a default secret from config service - GitHub Repo
 
 gateway:
   # ip: 192.168.0.100 # 테스트용 임의값
-  ip: 111.222.333.444 # 테스트용 임의값 수정
+  ip: 1.2.3.4 # 테스트용 임의값 수정
