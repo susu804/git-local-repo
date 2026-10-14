@@ -5,3 +5,6 @@ spring:
     username: sa
     # password: '{cipher}7179a5556f401fb1509441168b402abdd96231e81312a621118a1a7861f223a7'
     password: '{cipher}AQCkBiQCUmMB9XZl2fqeLAD/1JbygB6zR5yuRNTIwhS1S9qKQv0cjAyAEA+TT3PNoSLLE+nFENDooizLr8cfRMSjg9P1NIM3/3mn9St8YXH++nQjoOZXUuaxqGsIaieZ82iYFmWOh1dZHCU2VwhvPzQ5D40/INun9YrthGZZEgDYDpvb51qyyttMvC1Aa3kATLE5MvkACYfSdNj9SL1AeK7zG0NzrfORdn7GqkA46DTga0Le3Pz3JmOk2I70Gz8mG3mQiy0ZMNnVIHwzpiwgvTpSaWSXBEhR85l9dCEWtzQ4Tf8U+VO3fm7wcG1BgmtGMPNp58IG3BwbhJC4I48hYg4txTRJMZPFZHVI+a7D1B4uI9nvXWixpBSH9RWriyZQh4Q='
+
+order-service:
+  url: http://localhost:8000/order-service/%s/orders
