@@ -9,3 +9,5 @@ spring:
 order-service:
   # url: http://127.0.0.1:8000/order-service/%s/orders # 하드코딩
   url: http://order-service/order-service/%s/orders # 유레카에 등록된 서비스 이름을 사용하여 동적으로 주문 서비스 URL 생성
+  exception:
+    order-is-empty: User's orders is empty
